@@ -1,4 +1,5 @@
 VPN PritUnl em Ubuntu 18.04 de uma maneira bem rápida!
+
 -------------------------------------------------------------------------------------
 PRIMEIRO METODO ---------------------------------------------------------------------
 
@@ -12,6 +13,8 @@ $ ./install.sh
 
 -- AO ENTRAR NO NAVEGADOR --
 $ sudo pritunl setup-key
+
+-- GERAR SENHA --
 $ sudo pritunl default-password
 
 -------------------------------------------------------------------------------------
@@ -23,4 +26,6 @@ $ cd /tmp && wget https://raw.githubusercontent.com/aldeiacloud/pritunl_ubuntu/m
 
  -- AO ENTRAR NO NAVEGADOR --
 $ sudo pritunl setup-key
+
+-- GERAR SENHA --
 $ sudo pritunl default-password
