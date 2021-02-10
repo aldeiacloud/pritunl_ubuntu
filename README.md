@@ -36,9 +36,9 @@ cd /tmp && wget https://raw.githubusercontent.com/aldeiacloud/pritunl_ubuntu/mai
 
 <h4>... ao entrar no navegador.</h4>
  
-$ sudo pritunl setup-key
+sudo pritunl setup-key
 
 
-<h4>... gerar senha.<h4>
+<h4>... gerar senha.</h4>
 
-$ sudo pritunl default-password
+sudo pritunl default-password
