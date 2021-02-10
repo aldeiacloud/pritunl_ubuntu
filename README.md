@@ -35,6 +35,6 @@ $ cd /tmp && wget https://raw.githubusercontent.com/aldeiacloud/pritunl_ubuntu/m
 $ sudo pritunl setup-key
 
 
--- GERAR SENHA --
+<h4>GERAR SENHA<h4>
 
 $ sudo pritunl default-password
