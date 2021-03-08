@@ -42,3 +42,8 @@ sudo pritunl setup-key
 <h4>... gerar senha.</h4>
 
 sudo pritunl default-password
+
+
+<h4>... resetar senha.</h4>
+
+sudo pritunl reset-password
