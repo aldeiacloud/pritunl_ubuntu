@@ -5,7 +5,7 @@ echo "deb https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse"
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv 7568D9BB55FF9E5287D586017AE645C0CF8E292A
 sudo apt update -y
-sudo apt --assume-yes install pritunl mongodb-server
+sudo apt install pritunl mongodb-server -y
 sudo systemctl start pritunl mongodb
 sudo systemctl enable pritunl mongodb
 # CONFIGURAR HORARIO (BUENOS AIRES = BRASILIA SEM HORARIO DE VERAO)
